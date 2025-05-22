@@ -1,0 +1,58 @@
+body {
+    background: rgb(255, 255, 255);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar .list ul {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+span {
+    background: rgb(17, 211, 169);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.heading p {
+    width: 50%;
+}
+
+input {
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about p {
+    width: 60%;
+}
+
+.about .teamimg img {
+    border: solid 1px red;
+    display: flex;
+}
